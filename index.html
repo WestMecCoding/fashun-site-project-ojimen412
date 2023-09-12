@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASHUN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        #container {
+            max-width: 1920px;
+        }
+        h1{
+
+        }
+        .jacket-600 {
+            background-image:url('./768_assets/fashun_jacket_768 copy.png');
+        }
+        .shoe-800{
+            background-image: url('./1280_assets/fashun_shoe_1280.png');
+        }    
+        .hat-1000{
+            background-image: url('./1920_assets/fall_hat_600.jpg');
+        }   
+        p{ 
+            font-family: 'Merriweather', serif;
+            font-size:2em;
+            text-align: center;
+            /* padding: 20px; */
+            float: right;
+            width: 400px;
+            height: 100px;
+        }
+
+       
+        /* #gradient{ 
+            background: linear-gradient(150deg,orange,white);
+            width: 550px;
+            background-position: center center;
+            text-align: center center;
+            margin: auto;
+            
+
+        } */
+        /* #gradient2{
+            background: linear-gradient(150deg,orange,white);
+            width: 550px;
+            height: 250px;
+            background-position: center center;
+            margin: auto;
+        } */
+       
+        #logo {
+            
+        }
+
+        header {
+            height: 10vh;
+            overflow: hidden;
+            position: relative
+        }
+
+        p#waffle-menu{
+            position: absolute;
+            right: 10%;
+            top: 50%;
+        }
+        header nav {
+            
+         
+            
+            
+        }
+
+        header nav a {
+           
+    
+        }
+
+        #logo h1 {
+            /* font-family merriweather from Google Fonts */
+            margin-bottom: 10px;
+            font-weight: 400;
+            font-size: 3em;
+            text-align: left;
+            margin-left: 60px;
+
+        }
+
+        /* @media (min-width: 0px) and (max-width: 768px) {
+            div#splash-image {
+                background-image: url('./768_assets/fashun_banner_768.png');
+                background-size: cover;
+
+                width: 100%;
+                height: 50vh;
+                background-position: top left;
+                margin-bottom: 80px;
+                
+            }
+            h1{
+                font-family:'Merriweather', serif;
+            }
+        } */ 
+
+            @media (min-width: 768px) {
+            div#splash-image {
+                background-image: url('./1280_assets/fashun_banner_1280.png');
+                background-size: cover;
+                min-width: 768px;
+                max-width: 100%;
+                height: 50vh;
+                background-position: top center;
+            }
+        }
+        
+
+        /* @media (min-width: 1280px) {
+            div#splash-image {
+                background-image: url('./1920_assets/fashun_banner_1920.jpg');
+                background-size: cover;
+                min-width: 1280px;
+                max-width: 100%;
+                height: 50vh;
+                background-position: center center
+            }
+        } */
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>FASHUN</h1>
+            <p id="waffle"></p>
+            <nav><a href="">Fall Fashion</a><a href="">Shop Now</a><a href="">Fashun Club</a></nav>
+        </header>
+    <div id="splash-image"></div>
+    <main>
+        <div class="sale-items"></div>
+            <div id="sales-item-bgwrapper"></div>
+                <div id="item-img hat-600"></div>
+    </div>
+        <p class="sale-items-text">Item 1</p>
+    </div>
+
+    <div class="sales-item">
+        <div class="sales-item-bgwrapper">
+            <div class="item-img shirt-800"></div>
+          </div>
+    </div>
+    <p class="sales-item-text">Item 2</p>
+  </div>
+  <div class="sales-item">
+    <div class="sales-item-bgwrapper">
+      <div class="item-img hat-1000"></div>
+    </div>
+    <p class="sales-item-text">Item 3</p>
+  </div>
+
+</main>
+
+    
+
+</html>
